@@ -12,10 +12,6 @@ export default defineConfig(({ mode }) => {
         '@': resolve(__dirname, './src')
       }
     },
-    build: {
-      outDir: 'docs' // 打包文件的输出目录
-    },
-    base:"/antdemo/",
     server: {
       port: 3100,
       host: "127.0.0.1",
