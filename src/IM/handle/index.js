@@ -1,0 +1,2 @@
+import miniCore from "./index"
+

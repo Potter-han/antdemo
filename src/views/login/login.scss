@@ -1,0 +1,55 @@
+.login_container {
+  height: 100vh;
+  background: linear-gradient(to bottom, #e0d3f8, #fff);
+  position: relative;
+
+  .login_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd;
+    .login-form-button {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 1400px){
+    .login_form {
+      width: 40%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .login_form {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .login_form {
+      width: 60%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .login_form {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .login_form {
+      width: 95%;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .login_form {
+      width: 98%;
+    }
+  }
+  @media screen and (max-width: 240px) {
+    .login_form {
+      width: 99%;
+    }
+  }
+}
